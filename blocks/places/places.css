@@ -1,0 +1,58 @@
+@import url(./__item/places__item.css);
+@import url(./__title/places__title.css);
+@import url(./__links/places__links);
+@import url(./__link-title/places__link-title.css);
+@import url(./__link/places__link.css);
+@import url(./__img/places__img.css);
+@import url(./__text/places__text.css);
+@import url(./__text-paragraph/places__text-paragraph.css);
+
+.places {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: minmax(984px, 1fr);
+    grid-template-rows: auto;
+    row-gap: 80px;
+    justify-content: center;
+    padding: 0 148px 92px 148px;
+}
+
+@media screen and (max-width: 1280px) {
+    .places  {
+        padding: 0 48px 92px 48px;
+        grid-template-columns: minmax(928px, 1fr);
+        }
+    }
+
+
+@media all and (max-width: 1024px) {
+    .places  {
+        padding: 0 24px 88px 24px;
+        grid-template-columns: minmax(720px, 1fr);
+        row-gap: 72px;
+        }
+}
+
+@media all and (max-width: 768px) {
+    .places  {
+        padding: 0 16px 64px 16px;
+        row-gap: 32px;
+        grid-template-columns: minmax(320px, 1fr);
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__list/intro__list.css);
+@import url(./_digit/intro__list_digit.css);
+
+.intro {
+    padding: 0 442px 92px 148px;
+}
+
+@media screen and (max-width: 1280px) {
+    .intro {
+        padding: 0 286px 92px 48px;
+        }
+    }
+
+@media all and (max-width: 1024px) {
+    .intro {
+        padding: 0 24px 88px 24px;
+        }
+}
+
+@media all and (max-width: 768px) {
+    .intro {
+        padding: 0 16px 64px 16px;
+        }
+}
+
+
+
+
+
+
+

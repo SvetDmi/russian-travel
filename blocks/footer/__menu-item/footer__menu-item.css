@@ -1,0 +1,5 @@
+@media all and (max-width: 768px) {
+    .footer__menu-item {
+        padding-bottom: 32px;
+        }
+}

@@ -1,0 +1,16 @@
+.cover__text {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    z-index: 1;
+    font-size: 18px;
+    line-height: 122%;
+    text-align: center;
+    align-self: start;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .cover__text {
+        font-size: 14px;
+        }
+    }

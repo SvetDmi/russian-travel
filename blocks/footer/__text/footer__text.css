@@ -1,0 +1,11 @@
+.footer__text {
+    font-size: 14px;
+    line-height: 114%;
+    margin: 0;
+    }
+
+@media all and (max-width: 768px) {
+    .footer__text {
+        margin-top: 16px;
+    }
+}
