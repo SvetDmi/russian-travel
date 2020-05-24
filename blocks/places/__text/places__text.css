@@ -1,7 +1,7 @@
 .places__text {
     font-size: 18px;
-    line-height: 167%;
-    align-self: start;    
+    line-height: 1.6;
+       
 }
 
 @media all and (max-width: 768px) {

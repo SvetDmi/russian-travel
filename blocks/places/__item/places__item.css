@@ -1,8 +1,8 @@
 .places__item {
     max-width: 100%;
     display: grid;
-    align-items: end;
-    grid-template-columns: repeat(2, 50%);
+    align-items: start;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-gap: 48px 4%;
 }

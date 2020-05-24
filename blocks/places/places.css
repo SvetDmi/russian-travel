@@ -1,11 +1,11 @@
 @import url(./__item/places__item.css);
 @import url(./__title/places__title.css);
-@import url(./__links/places__links);
 @import url(./__link-title/places__link-title.css);
 @import url(./__link/places__link.css);
 @import url(./__img/places__img.css);
 @import url(./__text/places__text.css);
 @import url(./__text-paragraph/places__text-paragraph.css);
+@import url(./__links/places__links.css);
 
 .places {
     max-width: 100%;
