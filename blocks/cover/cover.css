@@ -1,28 +1,29 @@
-@import url(./__img/cover__img.css);
+@import url(./__link/cover__link.css);
 @import url(./__text/cover__text.css);
 @import url(./__title/cover__title.css);
 
+
+
 .cover {
-    display: grid;
-    grid-template-columns: auto 560px auto;
-    grid-template-rows: 2;
-    padding: 0 48px 92px 48px;
-    justify-items: center;       
+    max-width: 1184px;
+    width: calc(100% - 96px);
+    padding-bottom: 92px;        
     }
 
-.cover:hover {
-    opacity: 0.8;
-        }
-
-    @media screen and (max-width: 1280px) {
-        .cover {
-            padding: 0 0 92px 0;
+    @media screen and (max-width: 1040px) {
+        .cover  {
+            width: 100%;
             }
         }
-
-    @media screen and (max-width: 768px) {
+    
+    @media all and (max-width: 800px) {
         .cover {
-            padding: 0 0 64px 0;
-            grid-template-columns: auto 300px auto;
+            padding-bottom: 88px;
             }
-        }
+    }
+    
+    @media all and (max-width: 425px) {
+        .cover  {
+            padding-bottom: 64px;                    
+            }
+    }

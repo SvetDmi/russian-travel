@@ -1,16 +1,13 @@
 .cover__text {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    z-index: 1;
     font-size: 18px;
     line-height: 1.2;
-    text-align: center;
-    align-self: start;
     margin: 0;
     width: 360px;
+    text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 425px) {
     .cover__text {
         font-size: 14px;
         width: 90%;

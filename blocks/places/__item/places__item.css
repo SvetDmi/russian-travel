@@ -2,14 +2,26 @@
     max-width: 100%;
     display: grid;
     align-items: start;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 47% 1fr;
     grid-template-rows: auto;
     grid-gap: 48px 4%;
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 1040px) {
     .places__item  {
-        row-gap: 32px;
+        grid-column-gap: 32px;
+        }
+    }
+
+@media all and (max-width: 900px) {
+    .places__item  {
+        grid-column-gap: 28px;        
+        }
+}
+
+@media all and (max-width: 700px) {
+    .places__item   {
         grid-template-columns: 100%;
+        grid-row-gap: 32px;      
         }
 }

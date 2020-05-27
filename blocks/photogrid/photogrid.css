@@ -2,21 +2,26 @@
 
 .photogrid {
     display: grid;
-    max-width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-gap: 16px;
-    padding: 0 48px 92px 48px;
+    padding-bottom: 92px;
+    
+    width: calc(100% - 96px);
 }
 
-@media all and (max-width: 1024px) {
-    .photogrid  {
-        padding: 0 24px 88px 24px;
+
+@media all and (max-width: 800px) {
+    .photogrid {
+        width: calc(100% - 48px);
+        padding-bottom: 88px;
     }
 }
 
-@media all and (max-width: 768px) {
-    .photogrid  {
-        padding: 0 16px 64px 16px;
+@media all and (max-width: 430px) {
+    .photogrid {
+        width: calc(100% - 32px);
+        padding-bottom: 64px;
     }
 }
+
 

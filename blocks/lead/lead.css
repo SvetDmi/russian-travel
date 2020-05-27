@@ -5,39 +5,29 @@
 @import url(./__img-caption/lead__img-caption.css);
 
 .lead {
-    padding: 0 148px 92px 148px;
-    max-width: 100%;
+    padding-bottom: 92px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 984px;
+    width: calc(100% - 296px);
 }
-@media screen and (max-width: 1280px) {
+
+@media all and (max-width: 1040px) {
     .lead {
-        padding: 0 48px 92px 48px;
+        width: calc(100% - 96px);
+        padding-bottom: 92px; 
         }
+}
+@media all and (max-width: 800px) {
+    .lead {
+        width: 100%;
+        padding-bottom: 88px;
     }
-
-@media all and (max-width: 1024px) {
-    .lead {
-        padding: 0 0 88px 0;
-        }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 430px) {
     .lead {
-        padding: 0 0 64px 0;
-        }
+        padding-bottom: 64px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
